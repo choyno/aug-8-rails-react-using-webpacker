@@ -1,0 +1,2 @@
+// exportActionTypes   (DONT DELETE THIS LINE: USED FOR BATTLECRY DUCK GENERATOR)
+export const GET_TODOS = 'todo/GET-TODOS';

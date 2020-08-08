@@ -4,7 +4,6 @@ import reducers from './modules'
 import createSagaMiddleware from 'redux-saga'
 import rootSaga from './saga'
 
-
 const composeEnhancers = (process.env.NODE_ENV !== 'production' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null) || compose
 const sagaMiddleware = createSagaMiddleware()
 
